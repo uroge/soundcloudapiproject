@@ -120,7 +120,6 @@ SoundCloudAPI.getEmbed = function(trackURL) {
 
     sideBar.insertBefore(box, sideBar.firstChild);
     localStorage.setItem('key', sideBar.innerHTML);
-    alert(sideBar.innerHTML);
 
   });
 }
